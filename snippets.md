@@ -10,9 +10,12 @@ vector<vector<int>> dp (i+1,vector <int> (j+1, -1));
 #include <stdlib.h>
 #include <limits>
 using namespace std;
-
+    
+```cpp
 const int INF = numeric_limits<int>::max();
+```
 
+```cpp
 int main() {
     int n;
     cin >> n;
@@ -58,3 +61,4 @@ int main() {
     
     return 0;
 }
+```
