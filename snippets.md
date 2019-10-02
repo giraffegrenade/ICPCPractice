@@ -1,21 +1,21 @@
 #### Initialising 2D Vector
 
+```cpp
 vector<vector<int>> dp (i+1,vector <int> (j+1, -1));
+```
 
 #### Dijkstra's
 
+```cpp
 #include <iostream>
 #include <vector>
 #include <queue>
 #include <stdlib.h>
 #include <limits>
 using namespace std;
-    
-```cpp
-const int INF = numeric_limits<int>::max();
-```
 
-```cpp
+const int INF = numeric_limits<int>::max();
+
 int main() {
     int n;
     cin >> n;
