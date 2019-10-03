@@ -64,4 +64,5 @@ Sn = (n/2)(n+1)
 #### String functions
 
 ```tolower() // Convert to lower case```
+
 ```isalpha() // Check if it is a letter```
