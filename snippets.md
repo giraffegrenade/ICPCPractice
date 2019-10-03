@@ -1,9 +1,3 @@
-#### Initialising 2D Vector
-
-```cpp
-vector<vector<int>> dp (i+1,vector <int> (j+1, -1));
-```
-
 #### Dijkstra's
 
 ```cpp
@@ -62,3 +56,7 @@ int main() {
     return 0;
 }
 ```
+
+#### Sum of natural numbers
+
+Sn = (n/2)(n+1)
